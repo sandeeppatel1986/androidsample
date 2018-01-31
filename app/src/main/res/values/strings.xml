@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OTPGenerator</string>
+    <string name="accedi_ai_servizi">ACCESS THE SERVICES</string>
+    <string name="generaotp">GENERATE OTP</string>
+    <string name="logout">LOGOUT</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="login">LOGIN</string>
+    <string name="ok">OK</string>
+    <string name="inserisci_pin">INSERT PIN</string>
+    <string name="rigenera">REGENERATE</string>
+</resources>

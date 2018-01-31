@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etInserisci_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_border_textview"
+        android:textColor="@color/colorBlue"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:inputType="number"
+        android:longClickable="false"
+        android:gravity="center"
+        android:hint="@string/inserisci_pin"
+        android:textColorHint="@color/colorBlue"
+        android:layout_margin="22dp"
+        android:layout_centerVertical="true"
+         />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rounded_button"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_margin="22dp"
+        android:text="@string/ok"/>
+</RelativeLayout>
